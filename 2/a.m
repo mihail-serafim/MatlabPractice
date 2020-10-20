@@ -11,9 +11,8 @@ for x = -5:0.1:5
     end
 end
 
-maxvalue;
-xmax;
-ymax;
+xmax
+ymax
 
 
 
