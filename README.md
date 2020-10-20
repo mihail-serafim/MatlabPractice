@@ -1,4 +1,4 @@
-# MatlabPractice
+# Matlab Practice
 Analyzing ODE's in MatLab
 
 ### Here are some cool plots I've made
