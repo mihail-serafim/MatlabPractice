@@ -38,28 +38,11 @@ error = abs(y3-yExact);
 
 
 plot(x,yExact,'r',x1,y1,'b',x2,y2,'g',x3,y3,'k'); % plotting
-title('Mihail Serafimovski 400269483'); % figure's title,
+title('Eulers Method w/ error'); % figure's title
 legend('exact solution','h=0.4','h=0.2','h=0.1', 'Location','NorthWest'); % legend
 xlabel('x'); ylabel('y'); % and axis labels
 xlim([0 2])
 
 
-h = 0.01;
-X = 13;
-N = round(X/h);
 
-x = zeros(1,N+1);
-y = zeros(1,N+1);
-
-x(1) = 0;
-y(1) = 5.69;
-
-for n = 1:N
-  x(n+1) = x(n) + h;
-  y(n+1) = y(n) + h*(-y(n)/(sqrt(5.7^2 - y(n)^2)));
-end
-
-plot(x,y,'r'); % plotting
-title('Mihail Serafimovski 400269483'); % figure's title,
-xlim([0 13]);
 

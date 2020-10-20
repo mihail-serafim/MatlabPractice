@@ -10,7 +10,7 @@ x1 = linspace(-2,2,100);
 y1 = (8/73)*exp(-9*x1) + (430/73)*exp((1/8)*x1); 
 
 plot(x1,y1,'k','LineWidth', 2); % plotting
-title('Mihail Serafimovski 400269483');
+title('Direction Field w/ soln curve');
 xlim([-2, 2]);
 ylim([4, 8]);
 
