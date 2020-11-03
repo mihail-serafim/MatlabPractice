@@ -37,6 +37,8 @@ yExact = 2*exp((1/9)*x3.^3);
 error = abs(y3-yExact);
 
 
+
+
 plot(x,yExact,'r',x1,y1,'b',x2,y2,'g',x3,y3,'k'); % plotting
 title('Eulers Method w/ error'); % figure's title
 legend('exact solution','h=0.4','h=0.2','h=0.1', 'Location','NorthWest'); % legend
